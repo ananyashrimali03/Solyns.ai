@@ -258,6 +258,23 @@ ul { list-style: none; }
 }
 .capture-fine--light { color: rgba(255,255,255,0.55); }
 
+/* ------------ Startup supports (logo rail) ------------ */
+.supports-strip {
+  padding: clamp(1.25rem, 3vw, 2rem) 0;
+  background: var(--bg);
+}
+.supports-strip-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.supports-strip img {
+  display: block;
+  width: 100%;
+  max-width: min(1000px, 100%);
+  height: auto;
+}
+
 /* ------------ Hero demo card ------------ */
 .hero-visual { position: relative; }
 .demo-card {

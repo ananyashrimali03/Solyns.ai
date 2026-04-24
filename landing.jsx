@@ -210,6 +210,26 @@ function HeroDemo({ accent }) {
 }
 
 /* ============================================================
+   Partner logos (image asset only)
+   ============================================================ */
+function StartupSupports() {
+  return (
+    <section className="supports-strip">
+      <div className="container supports-strip-inner">
+        <img
+          src="assets/startup-supports.png"
+          alt=""
+          width={1024}
+          height={73}
+          decoding="async"
+          loading="lazy"
+        />
+      </div>
+    </section>
+  );
+}
+
+/* ============================================================
    Launch strip — scarcity + trust
    ============================================================ */
 function LaunchStrip() {
@@ -736,6 +756,7 @@ function App() {
       <Header/>
       <main>
         <Hero accent={accent} onSubmit={onSubmit} submitted={submitted}/>
+        <StartupSupports/>
         {values.showLaunchStrip && <LaunchStrip/>}
         <ProblemSolution/>
         <div id="preview"><ProductPreview/></div>
