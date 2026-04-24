@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" fill="none">
+  <title>Solyns AI  brand for Figma</title>
+  <desc>Sparkle mark, wordmark, and accent swatches. Import into Figma via File ù Place or drag the SVG.</desc>
+
+  <!-- Sparkle mark (same path as landing.jsx Sparkle icon) -->
+  <g id="sparkle-mark" transform="translate(32, 32)">
+    <path
+      d="M12 2 L13.5 10.5 L22 12 L13.5 13.5 L12 22 L10.5 13.5 L2 12 L10.5 10.5 Z"
+      fill="#0B0B0A"
+      transform="scale(4)"
+    />
+  </g>
+
+  <!-- Wordmark: Inter-style Solyns + serif AI (matches site header) -->
+  <g id="wordmark">
+    <text
+      x="128"
+      y="92"
+      fill="#0B0B0A"
+      font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+      font-size="34"
+      font-weight="600"
+      letter-spacing="-0.02em"
+    >Solyns</text>
+    <text
+      x="278"
+      y="92"
+      fill="#5C4438"
+      font-family="'Playfair Display', Georgia, serif"
+      font-size="36"
+      font-weight="500"
+      letter-spacing="-0.02em"
+    >AI</text>
+  </g>
+
+  <!-- Accent + neutrals (hex matches landing.jsx / landing.css) -->
+  <g id="accent-swatches">
+    <text x="128" y="150" fill="#767676" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="0.06em">ACCENTS</text>
+    <rect id="swatch-coffee" x="128" y="162" width="36" height="36" rx="6" fill="#5C4438"/>
+    <text x="146" y="218" text-anchor="middle" fill="#5C5C5C" font-family="Inter, system-ui, sans-serif" font-size="10">Coffee</text>
+
+    <rect id="swatch-cardboard" x="188" y="162" width="36" height="36" rx="6" fill="#756049"/>
+    <text x="206" y="218" text-anchor="middle" fill="#5C5C5C" font-family="Inter, system-ui, sans-serif" font-size="10">Cardboard</text>
+
+    <rect id="swatch-ink" x="248" y="162" width="36" height="36" rx="6" fill="#0B0B0A"/>
+    <text x="266" y="218" text-anchor="middle" fill="#5C5C5C" font-family="Inter, system-ui, sans-serif" font-size="10">Ink</text>
+
+    <rect id="swatch-cream" x="308" y="162" width="36" height="36" rx="6" fill="#F7F5F0" stroke="#E0DDD6" stroke-width="1"/>
+    <text x="326" y="218" text-anchor="middle" fill="#5C5C5C" font-family="Inter, system-ui, sans-serif" font-size="10">Cream</text>
+  </g>
+</svg>
